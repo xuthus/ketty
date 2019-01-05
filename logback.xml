@@ -19,6 +19,7 @@
             <level>DEBUG</level>
         </filter>
     </appender>
+    <logger name="com.mchange" level="WARN"/>
     <logger name="org.jboss" level="WARN"/>
     <logger name="org.hibernate" level="WARN"/>
     <root level="DEBUG">

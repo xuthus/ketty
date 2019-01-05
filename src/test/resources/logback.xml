@@ -1,10 +1,10 @@
 <configuration debug="false">
     <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
         <encoder>
-            <pattern>%d{HH:mm:ss.SSS} [%thread] %-5level: %msg%n</pattern>
+            <pattern>%d{HH:mm:ss} %-5level: %msg%n</pattern>
         </encoder>
         <filter class="ch.qos.logback.classic.filter.ThresholdFilter">
-            <level>DEBUG</level>
+            <level>INFO</level>
         </filter>
     </appender>
     <appender name="FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
@@ -20,10 +20,8 @@
         </filter>
     </appender>
     <logger name="com.mchange" level="WARN"/>
-    <logger name="org.jboss.logging" level="WARN"/>
     <logger name="org.jboss" level="WARN"/>
     <logger name="org.hibernate" level="WARN"/>
-    <logger name="org.hibernate.*" level="WARN"/>
     <root level="DEBUG">
         <appender-ref ref="FILE"/>
         <appender-ref ref="STDOUT"/>
