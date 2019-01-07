@@ -1,4 +1,7 @@
 # ketty
+
+[![Build Status](https://travis-ci.com/xuthus/ketty.svg?branch=master)](https://travis-ci.com/xuthus/ketty)
+
 kotlin, jetty, jersey, guice, hibernate, H2, concurrency
 
 Before I used Kotlin in production for one time, but like to use it in persional projects. Sometimes.
@@ -14,3 +17,5 @@ Not implemented:
 * business logic
 * unit tests mocking - almost all of them are running in almost full context - with database (H2), hibernate, but without jetty
 * there are no integration tests - where http client calls rest service - because there is direct rest service test and those tests will be Jetty tests indeed
+
+No Liquibase and Swagger - they are not for demo projects
