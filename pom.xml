@@ -20,7 +20,7 @@
         <jetty.version>9.4.14.v20181114</jetty.version>
         <javax.ws.rs.version>2.1.1</javax.ws.rs.version>
         <jackson.version>2.9.8</jackson.version>
-        <logback.version>1.2.3</logback.version>
+        <logback.version>1.2.13</logback.version>
         <slf4j.version>1.7.5</slf4j.version>
         <guice.version>4.2.2</guice.version>
         <hibernate.version>5.4.0.Final</hibernate.version>
